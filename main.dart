@@ -115,7 +115,7 @@ class _MyHomePageState extends State<MyHomePage> {
 String pi() {
     var n = 1000000;
     var delta = 1.0 / n;
-    var sum=0;
+    var sum=0.0;
     var x;
 
     for ( var i = 1; i <= n; i++ ) {
